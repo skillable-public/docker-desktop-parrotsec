@@ -11,4 +11,4 @@
 #fi
 
 runuser -l root -c \
-'openssl req -x509 -nodes -newkey rsa:3072 -keyout /home/root/cert.pem -out /home/root/cert.pem -days 3650 -batch'
+'openssl req -x509 -nodes -newkey rsa:3072 -keyout /root/cert.pem -out /root/cert.pem -days 3650 -batch'

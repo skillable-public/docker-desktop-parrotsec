@@ -3,10 +3,10 @@ name: Build and Push Image to ghcr
 on:
   pull_request:
     branches:
-      - master
+      - main
   push:
     branches:
-      - master
+      - main
 
 env:
   REGISTRY: ghcr.io
